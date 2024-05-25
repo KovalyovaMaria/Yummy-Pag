@@ -1,0 +1,161 @@
+body{
+    margin: 0;
+}
+@font-face {
+    font-family:Montserrat-Thin;
+    src: url(Users/test/Library/Fonts/Montserrat-VariableFont_wght.ttf);
+}
+@font-face {
+    font-family: MontserratRoman-ExtraBold;
+    src: url(/Users/test/Library/Fonts/Montserrat-ExtraBold.ttf);
+}
+.container{
+    max-width: 1920px;
+    margin: auto;
+}
+.container-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+header img{
+    width: 7%;
+}
+header nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    
+}
+header nav a{
+    text-decoration: none;
+    color: rgba(119, 78, 46, 1); 
+    font-family:Montserrat-Thin ;
+}
+main{
+    padding: 20px;
+   
+}
+main .introduce{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px ;
+}
+main .introduce .description{
+  width: 45%;
+}
+main .introduce .description h1{
+    text-align: left;
+    color: rgba(243, 127, 52, 1);
+    font-size: 200%;
+    font-family:MontserratRoman-ExtraBold ;
+}
+main .introduce .description h1 span{
+    color: rgba(119, 78, 46, 1);
+    font-family:Montserrat-Thin ;
+}
+main .introduce .description p{
+    text-align: left;
+    color: rgba(119, 78, 46, 1);
+    font-family:Montserrat-Thin ;
+}
+main .introduce .description button{
+    background-color: rgba(119, 78, 46, 1);
+    color: white;
+    border: none;
+    padding: 2%;
+    font-family:Montserrat-Thin ;
+}
+main .introduce img{
+ width: 45%;
+}
+main .products{
+    background-color:rgba(255, 249, 234, 1) ;
+    padding: 20px;
+    margin: 20px 0 0 0;
+}
+main .products h2{
+    text-align: center;
+    color: rgba(160, 133, 111, 1);
+    font-family:Montserrat-Thin ;
+}
+main .products .cards{
+    display: flex;
+    justify-content: space-between;
+}
+main .products .cards div{
+    width: 20%;
+    background-color: white;
+}
+main .products .cards div img{
+    width: 100%;
+}
+main .products .cards div{
+    padding: 10px;
+}
+main .products .cards div h3{
+    text-align: center;
+    color: rgba(119, 78, 46, 1);
+    font-family:Montserrat-Thin ;
+}
+main .products .cards div p{
+    text-align: center;
+    color: rgba(119, 78, 46, 1);
+    font-family:Montserrat-Thin ;
+}
+main .please{
+    padding: 20px;
+    margin: 20px 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+main .please .sweets{
+    width: 45%;
+}
+main .please .sweets h4{
+    align-content: center;
+    color: rgba(243, 127, 52, 1);
+    font-size: 200%;
+    font-family:Montserrat-Thin ;
+}
+main .please .sweets h4 span{
+    color: rgba(119, 78, 46, 1);
+    font-family: MontserratRoman-ExtraBold;
+    
+}
+main .please .sweets p{
+    text-align: left;
+    color: rgba(119, 78, 46, 1);
+    font-family:Montserrat-Thin ;   
+}
+main .please .sweets h5 {
+    text-align: left;
+    color: rgba(119, 78, 46, 1);
+    font-family:Montserrat-Thin ;  
+}
+main .please .sweets ul{
+    text-align: left;
+    color: rgba(119, 78, 46, 1); 
+    font-family:Montserrat-Thin ; 
+}
+main .please img {
+     width: 45%;
+}
+footer{
+    background-color: rgba(119, 78, 46, 1);
+    display: flex;
+    justify-content: space-between;
+}  
+footer img{
+    margin: auto;
+}
+footer p{
+    color: white;
+    font-size: larger;
+    margin: auto;
+    font-family:Montserrat-Thin ;
+}  
